@@ -25,7 +25,7 @@ app.add_middleware(
 # 1. 核心配置与认证
 # ---------------------------------------------------------
 # 在 Render.com 上部署时，在环境变量里设置你的 OpenRouter API Key
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "你的默认测试KEY")
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
